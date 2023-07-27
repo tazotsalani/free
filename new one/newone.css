@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.background-color {
+    background-image: url(./assets/header-bg.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    width: auto;
+    }
+
+header  {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.cont-child {
+    display: flex;
+    margin-top: 30px;
+               
+}
+.cont-child img {
+    height: 30px;
+}
+ul {
+ overflow: hidden;
+
+}
+li {
+display: flex;
+float: left;
+color: white;
+text-align: center;
+padding: 7px;
+text-decoration: none;
+}
+
+ul li:hover {
+padding: auto;
+background-color: none;
+color: yellow;
+
+}
+.centerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:70px ;
+    color: aliceblue;
+}
+.centerbox button {
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    color:white ;
+    border-radius: 10px;
+}
+.centerbox button:hover {
+    background-color: darkgoldenrod;
+}
+.webinfo  h1 , h1 , p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.webinfo h1 {
+    margin-top: 40px;
+}
+
+.information img  {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    
+    height: 400px;
+    margin: auto;
+}
+
+.information-one {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.allinone {
+background-color: lightgray;
+padding: 50px;
+}
+.sixphoto-header {
+margin-top: 20px;
+}
+.sixphoto-portfolio {
+width: 100%;
+max-width: 1000px;
+margin: auto;
+height: 600px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 10px 10px;
+
+}
+.sixphoto img {
+width: 320px;
+height: auto;
+}
+.sixphoto h2 , span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sixphoto-portfolio .sixphoto:hover {
+background-image: yellow;
+
+}
+.everything {
+width: 100%;
+max-width: 1000px;
+margin: auto;
+}
+.grid {
+
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.grid img {
+border-radius: 50%;
+height: 150px;
+width: 150px;
+
+}
+.gridchildone , 
+.gridchildtwo ,
+.gridchildthree ,
+.gridchildfour ,
+.gridchildfive {
+width: 320px;
+height: auto;
+display: flex;
+justify-content: center;  
+margin-top: 100px;  
+   
+}
+.grid h3 , span {
+width: 320px;
+height: auto;
+margin-top: 10px;
+}
+.gridchildtext {
+text-align: right;
+
+}
+.gridchildtextone {
+text-align: left;
+}
+.team {
+background-color: lightgray;
+height: 500px;
+}
+.team  h3 , h3 , p {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.team h3 {
+margin-top: 40px;
+
+}
+
+.member img  {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+
+}
+
+.teaminfo {
+display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: 1000px;
+height: 300px;
+margin: auto;
+}
+
+.memberone {
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.team .p-text {
+width: 100%;
+max-width: 500px;
+ margin: auto;   
+}
+.logo {
+max-width: 1000px;
+width: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+max-width: 1000px;
+margin: auto;
+height: 150px;
+}
+.logos img {
+width: 150px ;
+height: 100px;
+}
+.registration {
+background: url(./assets/map-image.png) ;
+height: 600px;
+background-color: rgb(53, 51, 51);
+
+
+}
+
+.registration-form {
+width: 100%;
+max-width: 1000px;
+margin: auto;
+display: flex;
+justify-content: center;
+}
+.registration-line , input {
+display: flex;
+justify-content: right;
+height: 60px;
+width: 450px;
+border-radius: 10px;
+margin: 30px;
+}
+.registration-text , textarea {
+display: flex;
+justify-content: left;
+height: 250px;
+width: 600px;
+margin: 10px;
+border-radius: 10px ;
+
+}
